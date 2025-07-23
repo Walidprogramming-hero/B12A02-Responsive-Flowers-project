@@ -1,0 +1,30 @@
+*{
+
+}
+/* google-fonts noto-serif starts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-google-fonts {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+/* google-fonts noto-serif ends */
+/* google-fonts inter starts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+.inter-google-fonts{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+/* google-fonts inter ends */
+/* shared styling starts */
+.display-fles{
+    display: flex;
+}
+/* continer */
+.continer{
+    max-width: 1140px;
+    margin: 20px auto 0px auto;
+}
+/* shared styling ends */
