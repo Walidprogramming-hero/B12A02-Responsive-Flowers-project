@@ -18,6 +18,7 @@
         flex-direction: column-reverse;
         gap: 25px;
         padding: 25px;
+        text-align: center;
     }
 }
 /* medium-device styling */
