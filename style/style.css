@@ -30,11 +30,14 @@
 }
 /* button */
 .primary-button{
-    padding: 26px 50px;
+    max-width: 270px;
     background-color: #E95A08;
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
+    border: transparent;
+    cursor: pointer;
+    padding: 26px 50px;
 }
 
 /* dark-1-color */
@@ -99,3 +102,49 @@
     max-width: 570px;
 }
 /* banner-session-continer styling ends */
+
+/* our-plants session styling starts */
+.our-plants-header{
+    text-align: center;
+}
+.header-tittle{
+    font-size: 3.1rem;
+    margin-bottom: 16px;
+}
+.header-tittle span{
+    color: #E95A08;
+}
+.header-sub-tittle{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 49px;
+}
+
+.plants-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.card{
+    max-width: 270px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
+.margin-bottom{
+    margin: 30px auto;
+}
+#medium{
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+#bold{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.btn{
+    margin: 15px auto;
+}
+/* our-plants session styling ends */

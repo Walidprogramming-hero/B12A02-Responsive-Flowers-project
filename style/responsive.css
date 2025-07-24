@@ -20,6 +20,10 @@
         padding: 25px;
         text-align: center;
     }
+    .plants-card{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
 }
 /* medium-device styling */
 @media screen and (min-width:576px) and (max-width:992px) {
