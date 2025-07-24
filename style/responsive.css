@@ -23,6 +23,7 @@
     .plants-card{
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
+        padding: 20px;
     }
 }
 /* medium-device styling */
