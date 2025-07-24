@@ -33,8 +33,19 @@
     .image-1{
     display: none;
 }
+.latest-card{
+    flex-direction: column;
+    padding: 40px;
+}
+.left-card{
+    text-align:center;
+}
+.right-card{
+    text-align: center;
+}
+
 }
 /* medium-device styling */
-@media screen and (min-width:576px) and (max-width:992px) {
-    
+@media screen and (min-width:576px) and (max-width:992px){
+
 }
