@@ -23,6 +23,16 @@
         justify-items: center;
         padding: 40px;
     }
+    .plants-lover{
+        flex-direction: column;
+        padding: 40px;
+    }
+    #lover{
+    margin: 0px auto;
+}
+    .image-1{
+    display: none;
+}
 }
 /* medium-device styling */
 @media screen and (min-width:576px) and (max-width:992px) {

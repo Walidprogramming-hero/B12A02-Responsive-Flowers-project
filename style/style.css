@@ -153,6 +153,34 @@
     margin: 200px auto;
 }
 .plants-lover{
-    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+}
+.plants-img{
+    max-width: 540px;
+    position: relative;
+}
+.plants-lover-content{
+    max-width: 540px;
+}
+.unorder-list-tittle{
+    font-size: 3.1rem;
+}
+.plants-lover-content *{
+    margin-bottom: 20px;
+}
+.list{
+    font-size: 1.3rem;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.5);;
+}
+.image-1{
+    position: absolute;
+   max-width: 286px;
+   left: 73%;
+   bottom: 73%;
+}
+.imge-2{
+    width: 100%;
 }
 /* plants lover-session continer ends */
