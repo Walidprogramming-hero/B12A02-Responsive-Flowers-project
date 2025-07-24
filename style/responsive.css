@@ -2,7 +2,6 @@
 @media screen and (max-width:576px) {
     .nav-bar{
         display: flex;
-        flex-direction: column;
         gap: 25px;
     }
     .nav-links{
@@ -18,7 +17,6 @@
         flex-direction: column-reverse;
         gap: 25px;
         padding: 25px;
-        text-align: center;
     }
     .plants-card{
         grid-template-columns: repeat(2,1fr);

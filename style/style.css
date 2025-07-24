@@ -148,3 +148,11 @@
     margin: 15px auto;
 }
 /* our-plants session styling ends */
+/* plants-lover-session continer starts */
+#lover{
+    margin: 200px auto;
+}
+.plants-lover{
+    align-items: center;
+}
+/* plants lover-session continer ends */
