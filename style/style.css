@@ -306,3 +306,44 @@ input{
 }
 
 /* join session styling ends */
+/* footer styling stsrts */
+.footer{
+    height: 348px;
+}
+.footer{
+    max-width: 1120px;
+    justify-content: space-between;
+    padding: 50px 160px;
+    margin: 0 auto;
+}
+.footer-logo{
+    width: 359px;
+}
+.footer-logo *{
+    margin-bottom: 20px;
+}
+.footer-desceription{
+    font-size: 1.5rem;
+     color: rgba(0, 0, 0, 0.5);
+}
+.footer-links{
+    max-width: 150px;
+}
+.footer-links *{
+    margin-bottom: 30px;
+}
+.footer-itme{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+}
+.footer-apps{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* footer styling ends */

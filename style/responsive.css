@@ -48,6 +48,11 @@ input{
     width: 304px;
     padding: 13px;
 }
+.footer{
+    flex-direction: column;
+    padding: 10px;
+}
+
 }
 /* medium-device styling */
 @media screen and (min-width:576px) and (max-width:992px){
