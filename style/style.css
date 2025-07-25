@@ -180,6 +180,15 @@
    max-width: 286px;
    left: 73%;
    bottom: 73%;
+   animation: glowing 10s linear infinite;
+}
+@keyframes glowing{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .imge-2{
     width: 100%;
@@ -345,5 +354,4 @@ input{
     align-items: center;
     gap: 30px;
 }
-
 /* footer styling ends */
