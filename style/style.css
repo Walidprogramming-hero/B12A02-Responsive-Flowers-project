@@ -317,7 +317,7 @@ input{
     margin: 0 auto;
 }
 .footer-logo{
-    width: 359px;
+    max-width: 359px;
 }
 .footer-logo *{
     margin-bottom: 20px;
