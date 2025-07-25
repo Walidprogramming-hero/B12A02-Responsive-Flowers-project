@@ -46,10 +46,13 @@
 
 input{
     width: 304px;
-    padding: 13px;
+    padding: 12px;
 }
 .footer{
     flex-direction: column;
+    padding: 20px;
+}
+.footer-desceription{
     padding: 10px;
 }
 
