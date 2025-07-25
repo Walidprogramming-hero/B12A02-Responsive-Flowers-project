@@ -38,8 +38,50 @@
     border: transparent;
     cursor: pointer;
     padding: 26px 50px;
+    position: relative;
+    z-index: 1;
 }
-
+.primary-button::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #E95A08;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.primary-button::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(45deg, #ff4545,yellow,red,green,white);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    z-index: -1;
+   background-size: 600%;
+    filter: blur(8px);
+    animation: button-glowing 12s linear infinite;
+}
+@keyframes button-glowing{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+.primary-button:active::after{
+    background-color: transparent;
+}
+.primary-button:active{
+    color: black;
+    font-weight: bold;
+}
 /* dark-1-color */
 .dark-1-color{
     color: #8987A1;
